@@ -1,0 +1,32 @@
+div.products{
+    display: flex;
+
+}
+div.products>div{
+    width: 120px;
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+div.products>div>img {
+    width: 75px;
+    border-radius: 50%;
+    outline: 3px solid rgb(173, 67, 67);
+    outline-offset: 2px;
+    
+}
+div.products>div>h5{
+    text-align: center;
+    font-size: 12px;
+    font-family: yekan;
+    color: #4d4d4d;
+    padding-top: 10px;
+    
+    
+}
+@media (max-width: 1024px) {
+    div.products{
+        width: 1100px;
+    }
+   
+  }
